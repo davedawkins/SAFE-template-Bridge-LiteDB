@@ -3,7 +3,7 @@
 This is a fork of SAFE-template-extended, where I've replaced Fable.Remoting with Elmish.Bridge. This gives an Elmish architecture to the client-server communication, and brings with it a websocket layer instead of the HTTP used by Remoting
 .
 
-Again, this was learning exercise for me.
+Again, this was a learning exercise for me.
 
 Here's the original README for SAFE-template-extended:
 
