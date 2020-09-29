@@ -1,0 +1,36 @@
+.myred {
+    background-color: red;
+    color: red;
+}
+
+.todo-item {
+    font-size: 120%;
+    border-bottom: 1pt solid #dddddd;
+}
+
+.todo-item button {
+    border: none;
+    background: none;
+    display: none;
+    color: #cc9a9a;
+    font-size: 16pt;
+    transition: color 0.2s ease-out;
+}
+
+input.checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.todo-item:hover .destroy {
+    display: block;
+}
+
+.todo-item .destroy:hover {
+    color: #af5b5e;
+}
+
+.todo-item.completed label {
+    text-decoration: line-through;
+    color: #cccccc;
+}
