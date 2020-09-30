@@ -53,7 +53,7 @@ Target.create "BundleForGHPages" (fun _ ->
 
 Target.create "Azure" (fun _ ->
     let web = webApp {
-        name "safe-litedb"
+        name "safe-bridge-litedb"
         zip_deploy "deploy"
     }
     let deployment = arm {
@@ -62,7 +62,7 @@ Target.create "Azure" (fun _ ->
     }
 
     deployment
-    |> Deploy.execute "safe-litedb" Deploy.NoParameters
+    |> Deploy.execute "safe-bridge-litedb" Deploy.NoParameters
     |> ignore
 )
 
