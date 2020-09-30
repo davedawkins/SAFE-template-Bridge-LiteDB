@@ -1,6 +1,6 @@
 # SAFE Template using Elmish.Bridge & LiteDB.FSharp
 
-This is a fork of [SAFE-template-extended](https://github.com/davedawkins/SAFE-template-extended), where I've replaced Fable.Remoting with Elmish.Bridge. This gives an Elmish architecture to the client-server communication, and brings with it a websocket layer instead of the HTTP used by Remoting.
+This is a fork of [SAFE-template-extended](https://github.com/davedawkins/SAFE-template-extended), replacing Fable.Remoting with Elmish.Bridge. This gives an Elmish architecture to the client-server communication, and brings with it a websocket layer instead of the HTTP used by Remoting.
 
 Again, this was a learning exercise for me.
 
