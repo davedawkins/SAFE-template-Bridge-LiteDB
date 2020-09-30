@@ -14,6 +14,8 @@ dotnet tools restore
 dotnet fake build --target run
 ```
 
+Open a browser at [localhost:8080](http://localhost:8080). Open another one to see the broadcasting in effect.
+
 Here's the original README for SAFE-template-extended:
 
 This template was created with `dotnet new safe` from [SAFE Stack](https://safe-stack.github.io/). I've then added the following features to approach something closer to the standard TodoMVC example. 
