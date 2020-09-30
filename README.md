@@ -16,6 +16,8 @@ dotnet fake build --target run
 
 Open a browser at [localhost:8080](http://localhost:8080). Open another one to see the broadcasting in effect.
 
+I learned the basics of `Elmish.Bridge` from [Zaid-Ajaj/tabula-rasa](https://github.com/Zaid-Ajaj/tabula-rasa).
+
 Here's the original README for SAFE-template-extended:
 
 --------
