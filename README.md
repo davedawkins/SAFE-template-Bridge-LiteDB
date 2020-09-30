@@ -4,7 +4,7 @@ This is a fork of [SAFE-template-extended](https://github.com/davedawkins/SAFE-t
 
 Again, this was a learning exercise for me.
 
-I deployed this to Azure, but it seems that Azure isn't happy about websockets. That would have been cool for people to see, since you will now see other people's edits appear in real-time (not ideal for a todo app!). You can download and build the repo yourself easily enough. Open up two browsers to localhost:8080 and watch the edits mirror to the other browser.
+I deployed this to Azure, but it seems that Azure isn't happy about websockets. That would have been cool for people to see, since you will now see other people's edits appear in real-time (not ideal for a todo app!). You can download and build the repo yourself easily enough. Open up two browsers to `localhost:8080` and watch the edits mirror to the other browser.
 
 To build and run:
 ```
